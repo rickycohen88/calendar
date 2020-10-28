@@ -59,5 +59,9 @@ hrBlock6.setAttribute("class","btn");
 hrBlock6.setAttribute("class","btn-secondary");
 hrBlock6.setAttribute("type","button");
 hrBlock5.appendChild(hrBlock6);
+// potential add listener to each button.. maybe try to wait for bubble on day tab
+// need to create loop for creation of all hrs
+// need to get the day wanted  from month tab from year tab need to pull saved info for that day and update day page for that day
+// need to auto populate current day on page load
 
 }
