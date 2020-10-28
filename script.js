@@ -33,6 +33,31 @@ let interval;
             $("#localcurrent").text(now);
         }
     
+function createHrBlocks(){
+    // create div for hr add a prepend label to identify it
+    // and add an input feild for user input
+    //and add a save button to the feild for ease of use
 
+let hrBlock = document.createElement("div");// Whole hour block div
+hrBlock.setAttribute("class","input-group mb-3");//bootstrap classes-this will repeate in other areas******!
+let hrBlock2 = document.createElement("div");// the prepend of the block ie the hour
+hrBlock2.setAttribute("class","input-group-prepend");
+hrBlock.appendChild(hrBlock2);
+let hrBlock3 = document.createElement("span");//the span for the prepend ie the text that tells you the hour
+hrBlock3.setAttribute("class","input-group-text");
+hrBlock2.appendChild(hrBlock3);
+let hrBlock4 = document.createElement("input");// creates the input feild
+hrBlock4.setAttribute("class","form-control");
+hrBlock4.setAttribute("type","text");
+hrBlock4.setAttribute("aria-label","");// figure out how to label this specific for each hour later!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+hrBlock.appendChild(hrBlock4);
+let hrBlock5 = document.createElement("div");//creates the div for the save button
+hrBlock5.setAttribute("class","input-group-append");
+hrBlock.appendChild(hrBlock5);
+let hrBlock6 = document.createElement("button");
+hrBlock6.setAttribute("class","btn");
+hrBlock6.setAttribute("class","btn-secondary");
+hrBlock6.setAttribute("type","button");
+hrBlock5.appendChild(hrBlock6);
 
-
+}

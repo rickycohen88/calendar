@@ -2,10 +2,16 @@
 
 
 ## *Objective* 
+To create a fuctioning day planner. load current date and center on current time.<br> 
+Add some navigation to move between past and future. show current time in a easily understood stand out way.<br>
+Show past and future in easily understood ways.<br>
+Ability to set and edit appointments/events, aswell as save them.<br>
 
 
 ### Method
-
+I was given a tiny bit of starter code in the terms of a jumbotron in bootstrap for html and some ccdn's linked already.<br>
+As well as some css to style it and some wanted future elements.<br>
+I then updated the moment.js cdn and added a new script file to be added for functionality.<br>
 
 
 
@@ -18,6 +24,7 @@
 
 
 ### Usage 
+This is a fully functioning calendar/day planner.
 
 
 ### Instalation
