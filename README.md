@@ -35,9 +35,9 @@ To make the project work you will need -
 just download the files directly for git hub.
 
 ### Deployed website and screenshots
-![Image](images/title.JPG "website title")
-![Image](images/Screen1.JPG "Screenshot 1")
-![Image](images/screen2.JPG "Screenshot 2")
+![Image](fullpage.PNG "website title")
+![Image](cellphone.PNG "Screenshot 1")
+![Image](googleconsole.PNG "Screenshot 2")
 
 [Link](https://rickycohen88.github.io/calendar/)
 

@@ -40,7 +40,7 @@ createHrBlocks();
             $("#localcurrent").text(now);
            
         }
-        refreshpage = setInterval(createHrBlocks,60000);
+        refreshpage = setInterval(createHrBlocks,60000);// refreshes page every minuet.
 
 function createHrBlocks(){
     hourdiv.innerHTML="";
