@@ -62,7 +62,6 @@ function createHrBlocks(){
         let hrBlock4 = document.createElement("textarea");//  the text entry
         hrBlock4.setAttribute("class","form-control");
         hrBlock4.setAttribute("id",currCalHour.format("HH"));
-        
         hrBlock.appendChild(hrBlock4);
         let hrBlock5 = document.createElement("div");//creates the div for the save button
         hrBlock5.setAttribute("class","input-group-append");
@@ -75,6 +74,13 @@ function createHrBlocks(){
         hrBlock6.setAttribute("value",moment().format("YYYY, MM, DD,"));
         hrBlock6.textContent ="save";
         hrBlock5.appendChild(hrBlock6);
+
+        let keyIfAny = hrBlock6.value;
+        keyIfAny += hrBlock3.textContent;
+        
+        
+        hrBlock4.textContent=pullstored(keyIfAny);
+
     }  //close for loop
  
     changeBackground();
@@ -99,7 +105,7 @@ function changeBackground(){
     }//end of change background forloop
  }//end of changeBackground function
 
-$("button").on("click",function(){
+$(".saveBtn").on("click",function(){
     let a=$(this).attr("value");
     console.log(a);
     console.log(typeof(a));
